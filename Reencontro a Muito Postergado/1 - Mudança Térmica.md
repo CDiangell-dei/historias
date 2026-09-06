@@ -36,9 +36,9 @@ Finalmente, o cansaço venceu. Suas pálpebras, pesadas após tanta melancolia, 
 
 ---
 
-**[Lugunica — Mansão Mathers / Pátio Externo]**
+**[Lugunica — Mansão Miload / Pátio Externo]**
 
-Em outro lugar, em outro mundo, um rapaz de cabelos pretos e uma garotinha de cabelos loiros brincavam no pátio da mansão Mathers. Subaru girava Beatrice no ar, e ela, entre risos, o chamava de "assediador de espíritos", embora estivesse visivelmente se divertindo. Ele parou o giro, abraçou-a com força e se jogou na grama, deixando a pequena repousar sobre seu peito.
+Em outro lugar, em outro mundo, um rapaz de cabelos pretos e uma garotinha de cabelos loiros brincavam no pátio da mansão Miload. Subaru girava Beatrice no ar, e ela, entre risos, o chamava de "assediador de espíritos", embora estivesse visivelmente se divertindo. Ele parou o giro, abraçou-a com força e se jogou na grama, deixando a pequena repousar sobre seu peito.
 
 — O Subaru da Betty está bem animado hoje, eu suponho — disse ela, ajeitando-se. — Fico feliz em ver que você está melhor. Você andava tão melancólico ultimamente.
 
@@ -134,7 +134,7 @@ Um silêncio pesado se instalou, até que a Inveja cedeu com um suspiro relutant
 
 ---
 
-**[Lugunica — Mansão Mathers / Biblioteca Provisória]**
+**[Lugunica — Mansão Miload / Biblioteca Provisória]**
 
 Dias se passaram. Beatrice era diligente. Mergulhou nos estudos, começando pela magia de localização por linhagem sanguínea. Seus primeiros experimentos foram com animais da floresta. Ela coletava uma pequena amostra de sangue e se concentrava em infundir sua mana em cada partícula. De acordo com Subaru, no sangue, nos tecidos, em cada parte de um ser vivo, existia um aglomerado de informações chamado DNA. Ela só precisava se focar nisso.
 
@@ -156,7 +156,7 @@ Perdida em pensamentos, ela buscou uma solução, até que uma ideia complexa su
 
 ---
 
-**[Lugunica — Mansão Mathers / Aposentos de Emilia]**
+**[Lugunica — Mansão Miload / Aposentos de Emilia]**
 
 Com a decisão tomada, Beatrice saiu da biblioteca que transformara em laboratório e percorreu a mansão em busca de Emilia. Encontrou-a em seu quarto, debruçada sobre uma pilha de livros — provavelmente os mesmos tomos de leis que Roswaal a fizera estudar. Sem perder tempo, Beatrice parou em frente à porta já aberta e bateu suavemente na madeira:
 
@@ -188,7 +188,7 @@ Emilia parou por alguns segundos, processando a informação. Depois, colocou o 
 
 ---
 
-**[Lugunica — Mansão Mathers / O Laboratório e a Preparação]**
+**[Lugunica — Mansão Miload / O Laboratório e a Preparação]**
 
 Juntando-se a Beatrice, Emilia seguiu-a de volta para a biblioteca, que se tornou o seu laboratório. Elas passaram dois meses lá dentro, praticando meticulosamente. A comida era deixada na porta, e elas só saíam para o estritamente necessário. Subaru ficou preocupado com o isolamento, mas quando tentou entrar, foi firmemente impedido por Beatrice na porta. Confuso mas confiante, ele decidiu deixá-las em paz.
 
@@ -198,7 +198,7 @@ No primeiro mês, elas fizeram uma pausa. Emilia descansou, repondo a mana gasta
 
 ---
 
-**[Lugunica — Clareira nos Arredores da Mansão Mathers]**
+**[Lugunica — Clareira nos Arredores da Mansão Miload]**
 
 No fim do segundo mês, foram para uma clareira longe da mansão. Ambas assumiram as suas posições: Emilia logo atrás de Beatrice, pronta para infundir mana no Grande Espírito, e Beatrice à frente, concentrando-se. Então, ela finalmente recitou as palavras:
 

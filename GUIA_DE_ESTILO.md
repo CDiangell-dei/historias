@@ -39,7 +39,7 @@ Sempre que houver troca de local, salto temporal ou mudança de ponto de vista, 
 
 *Exemplos:*
 * `**[Chiba, Japão — Residência da Família Natsuki]**`
-* `**[Lugunica — Mansão Mathers / Pátio Externo]**`
+* `**[Lugunica — Mansão Miload / Pátio Externo]**`
 * `**[O Selo da Bruxa — Dimensão das Sombras]**`
 * `**[Lugunica — Clareira da Floresta de Elior]**`
 

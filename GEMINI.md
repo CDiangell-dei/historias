@@ -62,3 +62,8 @@ Todo capítulo deve conter no topo:
 * **NUNCA** inspecionar, acessar ou modificar o diretório `C:\Antigravity\Beatrice` (é o projeto pessoal de software do autor, independente deste repositório de histórias).
 * Manter todos os arquivos de histórias em formato `.md` limpo em Português do Brasil (`pt-BR`).
 * Sincronizar as alterações com o repositório remoto Git (`origin main`) após marcos de edição relevantes.
+---
+
+## 4. Continuidade e Cânone de Re:Zero
+
+* **História 'Reencontro a Muito Postergado':** Passa-se no período pós-Arco 4 (após a 2ª temporada do anime). A mansão original Mathers em Arlam foi destruída pelo fogo; portanto, o acampamento de Emilia reside temporariamente na **Mansão Miload** (com Annerose e Clind, no domínio de Costuul) até o retorno à nova mansão Mathers construída no Arco 9.
