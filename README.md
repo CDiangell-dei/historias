@@ -1,6 +1,6 @@
-﻿# 📚 Histórias & Fanfictions
+﻿# 📚 Histórias, Fanfictions & RPG
 
-Repositório dedicado ao armazenamento, organização e desenvolvimento de histórias e fanfictions (Re:Zero).
+Repositório dedicado ao armazenamento, organização e desenvolvimento de histórias, fanfictions (Re:Zero) e sistemas de RPG.
 
 ---
 
@@ -10,10 +10,13 @@ Repositório dedicado ao armazenamento, organização e desenvolvimento de hist�
 * **Tema:** O reencontro emocionado e a dor da saudade entre Subaru Natsuki, seus pais no Japão (Kenichi e Naoko) e a sua nova vida ao lado de Beatrice.
 
 ### 2. 📖 [TFS - WTBO](./TFS%20-%20WTBO/)
-* **Tema:** *The Forgotten Star*. Uma narrativa aprofundada focada no relacionamento entre Subaru Natsuki e Anastasia Hoshin, acompanhados por Beatrice, Tia, Eridna e Halibel.
+* **Tema:** *Two Forgotten Stars - Where The Brightest Shines*. Uma narrativa aprofundada focada no relacionamento entre Subaru Natsuki e Anastasia Hoshin, acompanhados por Beatrice, Tia, Eridna e Halibel.
 
 ### 3. 📖 [Um Acordo Mútuo de Felicidade](./Um%20Acordo%20M%C3%BAtuo%20de%20Felicidade/)
 * **Tema:** A busca por paz e felicidade compartilhada na mansão, explorando a relação de Subaru com Beatrice, Petra e as complexidades emocionais em relação à Rem sem memórias.
+
+### 4. 🎲 [RPG - Bellum Egrégora: O Flagelo de Metus](./RPG/)
+* **Tema:** Complemento de sistema de RPG medieval sombrio desenvolvido para Ordem Paranormal com bases em Tormenta20 e Sobrevivendo ao Horror. Inclui 23 origens medievais, adaptação de perícias, mecânicas de defesa ativa e um sistema de conjuração canalizada cobrando Sanidade.
 
 ---
 *Gerado e mantido com auxílio do Antigravity AI.*
