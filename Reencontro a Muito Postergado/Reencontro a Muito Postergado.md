@@ -1,3 +1,11 @@
+# Reencontro a Muito Postergado
+
+**Autor:** CDiangell  
+**Universo:** Re:Zero Starting Life in Another World  
+**Personagens:** Natsuki Subaru, Kenichi Natsuki, Naoko Natsuki, Beatrice, Emilia, Satella  
+
+---
+
 Era mais um dia gélido, mas a frieza não vinha da temperatura ambiente. Esta mesma temperatura, mesmo que atingisse o zero absoluto, ainda pareceria cálida em comparação com o vazio deixado pela ausência de felicidade que aquelas duas almas sentiam.
 
 Para Naoko e Kenichi Natsuki, os pais do desaparecido Natsuki Subaru, completava-se um ano desde que as buscas pelo jovem se mostraram infrutíferas. A possibilidade de ele ainda estar em algum lugar era uma pergunta que já não lhes importava. O que eles realmente desejavam era poder rever o filho; ansiavam por não ter que dormir e despertar para mais um dia em um mundo que lhes roubara seu doce menino.
