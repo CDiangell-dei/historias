@@ -1,0 +1,3 @@
+﻿# Ignorar PDFs grandes de livros de regras oficiais
+*.pdf
+!Complemento de Regras - Mesa Diangell.pdf
