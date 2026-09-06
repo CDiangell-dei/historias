@@ -1,0 +1,64 @@
+# Regras Editoriais e Diretrizes do Projeto (Histórias)
+
+Este arquivo define as diretrizes permanentes de escrita, estilização e conduta para todos os projetos de histórias e fanfictions contidos neste repositório (`C:\Antigravity\Histórias`). Consulte sempre o documento detalhado [`GUIA_DE_ESTILO.md`](GUIA_DE_ESTILO.md).
+
+---
+
+## 1. Diretrizes de Formatação e Estilização Editorial
+
+1. **Diálogos de Personagens:**
+   * Utilizar **sempre** o travessão verdadeiro de diálogo (`—`, *em-dash*) seguido de espaço.
+   * Não utilizar aspas inglesas (`"..."`) para falas normais.
+   * Exemplo: `— Kenichi... você realmente acha que vamos encontrar nosso filho? — a voz dela saiu embargada.`
+
+2. **Pensamentos Internos:**
+   * Utilizar *itálico* com aspas simples:
+   * Exemplo: `*‘O Subaru realmente merece alguns tapinhas na cabeça por ser um garoto inteligente...’*`
+
+3. **Vozes Sobrenaturais, Telepatia e Entidades:**
+   * Comunicação mental de Satella, Inveja, Echidna ou conexões telepáticas devem usar *itálico* com aspas angulares (`«...»`):
+   * Exemplo: `*«Não. O meu Subaru já passou por sofrimento demais.»*`
+
+4. **Magias, Autoridades e Técnicas Especiais:**
+   * Termos mágicos e autoridades devem ser formatados em negrito com aspas angulares:
+   * Exemplos: **«Al Kettan»**, **«Al Shamac»**, **«Al Minya»**, **«Autoridade da Inveja»**, **«Cor Leonis»**.
+
+5. **Divisões de Cena e Marcadores de Ponto de Vista (POV):**
+   * Toda mudança de ambiente, tempo ou ponto de vista deve ser demarcada com uma linha horizontal (`---`) seguida de marcador de local/foco em negrito entre colchetes:
+   ```markdown
+   ---
+
+   **[Chiba, Japão — Residência da Família Natsuki]**
+   ```
+
+6. **Citações, Livros e Pergaminhos:**
+   * Utilizar blocos de citação (`>`) com texto em *itálico*.
+   * Exemplo: `> *血捜 (Kessou): 血 (Sangue) + 捜 (Busca / Procura / Investigação).*`
+
+---
+
+## 2. Padrão de Cabeçalho dos Capítulos
+
+Todo capítulo deve conter no topo:
+
+```markdown
+# [Nome da História]
+
+**Autor:** CDiangell  
+**Universo:** Re:Zero Starting Life in Another World  
+**Personagens:** [Lista de Personagens]  
+
+---
+
+## Capítulo [X]: [Título do Capítulo]
+
+---
+```
+
+---
+
+## 3. Segurança e Restrições do Ambiente
+
+* **NUNCA** inspecionar, acessar ou modificar o diretório `C:\Antigravity\Beatrice` (é o projeto pessoal de software do autor, independente deste repositório de histórias).
+* Manter todos os arquivos de histórias em formato `.md` limpo em Português do Brasil (`pt-BR`).
+* Sincronizar as alterações com o repositório remoto Git (`origin main`) após marcos de edição relevantes.
