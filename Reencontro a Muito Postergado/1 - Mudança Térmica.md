@@ -236,10 +236,6 @@ Lentamente, a luz que ainda a iluminava foi se fechando, fechando até se apagar
 
 Dito e feito, rapidamente ela se viu submersa, lutando com todas as forças para continuar respirando enquanto era afogada em um mar de água e escuridão. Sentiu a água invadir seus pulmões e, então, subitamente...
 
----
-
-**[Chiba, Japão — Residência da Família Natsuki / Quarto do Casal]**
-
 Naoko pôde sentir de novo o ar em seus pulmões. Abriu os olhos e viu a luz do quarto. Kenichi estava ao seu lado, tentando acordá-la. Ao perceber que a esposa havia despertado, ele a abraçou com força, deixando que a cabeça dela descansasse em seu peito.
 
 — Aquele pesadelo de novo? — perguntou o esposo.
