@@ -218,8 +218,6 @@ De repente, Beatrice viu. Pontos de luz. Dois pontos de luz clara brilhando na e
 
 ---
 
-**[Chiba, Japão — O Pesadelo de Naoko]**
-
 Naoko estava em um ambiente totalmente escuro. Somente uma luz, cuja fonte era impossível de ver, pairava acima dela, deixando-a em destaque naquela escuridão abissal. Sem ter mais nada para fazer além de tremer sozinha ali, ela caminhou por aquele ambiente, andando e andando. E então, ali estava: mais um ponto de luz ao longe.
 
 — Olá, tem alguém aí? Eu acho que estou perdida, podem me ajud... — Sua garganta travou na hora, incapaz de continuar a fala, simplesmente olhando para quem estava sob aquela luz. — SUBARU!
