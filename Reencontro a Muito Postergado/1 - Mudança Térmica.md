@@ -186,10 +186,6 @@ Emilia parou por alguns segundos, processando a informação. Depois, colocou o 
 
 — É claro que eu vou ajudar! Vamos fazer o Subaru ter uma surpresa muuuito grande e fazê-lo ficar muuuito feliz! Ele vai adorar isso!
 
----
-
-**[Lugunica — Mansão Miload / O Laboratório e a Preparação]**
-
 Juntando-se a Beatrice, Emilia seguiu-a de volta para a biblioteca, que se tornou o seu laboratório. Elas passaram dois meses lá dentro, praticando meticulosamente. A comida era deixada na porta, e elas só saíam para o estritamente necessário. Subaru ficou preocupado com o isolamento, mas quando tentou entrar, foi firmemente impedido por Beatrice na porta. Confuso mas confiante, ele decidiu deixá-las em paz.
 
 Dentro da biblioteca, Beatrice tentava com toda a sua capacidade buscar pela família de Subaru. A esperança inicial era de que fosse apenas uma questão de distância, mas após duas semanas de buscas infrutíferas, a frustração começou a se instalar. Ela saía do quarto apenas para ir até Subaru, coletar uma nova amostra de sangue com uma agulha e voltar à sua reclusão; ainda dormiam juntos, pois Subaru precisava daquele conforto. Na terceira semana, abandonaram o método normal. Com a ajuda de Emilia, Beatrice usou um portal de teleporte, uma magia que criava um rasgo na realidade para expandir o alcance, mas mesmo assim, não encontrou nada. Na quarta semana, forçou os limites, procurando em todas as direções, mas o resultado foi o mesmo: um vazio silencioso.
