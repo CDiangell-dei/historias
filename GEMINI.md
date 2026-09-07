@@ -72,5 +72,5 @@ Todo capítulo deve conter no topo:
 ## 5. Fluxo e Regras de Co-autoria na Escrita
 
 * **Respeito Absoluto à Intenção do Autor:** Quando o autor fornecer um trecho ou rascunho de texto, **NUNCA** alterar o sentido, a mensagem central ou o rumo pretendido das frases.
-* **Apenas Incrementar:** O papel do assistente é lapidar, expandir detalhes sensoriais, enriquecer a prosa e aplicar a estilização editorial padronizada (travessões `—`, pensamentos *‘...’*, magia **«...»**, divisores de cena), mantendo a voz e a ideia original do autor intactas.
+* **Apenas Incrementar e Corrigir:** O papel do assistente é lapidar a narrativa, corrigir desvios gramaticais e ortográficos, expandir detalhes sensoriais, enriquecer a prosa e aplicar a estilização editorial padronizada (travessões `—`, pensamentos *‘...’*, magia **«...»**, divisores de cena), mantendo a voz e a ideia original do autor intactas.
 * **Validação Prévia:** Apresentar a versão incrementada primeiro na resposta para que o autor possa ler, avaliar e fazer ajustes manuais se desejar antes de consolidar.
