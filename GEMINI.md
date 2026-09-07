@@ -1,6 +1,6 @@
 # Regras Editoriais e Diretrizes do Projeto (Histórias)
 
-Este arquivo define as diretrizes permanentes de escrita, estilização e conduta para todos os projetos de histórias e fanfictions contidos neste repositório (`C:\Antigravity\Histórias`). Consulte sempre o documento detalhado [`GUIA_DE_ESTILO.md`](GUIA_DE_ESTILO.md).
+Este arquivo define as diretrizes permanentes de escrita, estilização e conduta para todos os projetos de histórias e fanfictions contidos neste repositório (`C:\Antigravity\Histórias`). Consulte sempre o documento detalhado [`GUIA_DE_ESTILO.md`](GUIA_DE_ESTILO.md) e o [`GLOSSARIO.md`](GLOSSARIO.md) para termos, alimentos e ingredientes próprios de Re:Zero.
 
 ---
 

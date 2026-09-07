@@ -22,4 +22,12 @@ Repositório dedicado ao armazenamento, organização e desenvolvimento de hist�
 * **Tema:** Complemento de sistema de RPG medieval sombrio desenvolvido para Ordem Paranormal com bases em Tormenta20 e Sobrevivendo ao Horror. Inclui 23 origens medievais, adaptação de perícias, mecânicas de defesa ativa e um sistema de conjuração canalizada cobrando Sanidade.
 
 ---
+
+## 📑 Guias & Recursos
+
+* 📜 [`GUIA_DE_ESTILO.md`](./GUIA_DE_ESTILO.md): Diretrizes oficiais de estilização editorial, tipografia e pontuação para os capítulos.
+* 🍎 [`GLOSSARIO.md`](./GLOSSARIO.md): Glossário de equivalência de termos e alimentos do mundo de Re:Zero vs. Terra (ex: *Linga/Maçã*, *Rinku/Fruta de Lótus*, etc.).
+* 🗺️ [`recursos/mapa_rezero.jpg`](./recursos/mapa_rezero.jpg): Mapa geográfico oficial em alta definição dos Quatro Reinos de Re:Zero.
+
+---
 *Gerenciado e upado com auxílio do Antigravity AI.*
