@@ -239,3 +239,9 @@ Naoko pôde sentir de novo o ar em seus pulmões. Abriu os olhos e viu a luz do 
 — Sim...
 
 Havia cerca de quatro meses que ela começara a ter esse mesmo pesadelo. De início, era uma vez na semana; depois, duas. Agora, acontecia quase todos os dias. Às vezes parava, mas voltava no dia seguinte.
+
+Kenichi já não sabia o que mais podia fazer. Havia se passado um ano inteiro de buscas sem respostas, um ano em que a dor e a incerteza corroíam os dois a cada amanhecer. Às vezes, eles entravam no quarto do filho, mantido exatamente como ele havia deixado — intocado pelo tempo, como se um simples movimento pudesse apagar a última presença de Subaru ali.
+
+As paredes ainda exibiam seus pôsteres sugestivos, quase obscenos. Teria sido aquilo apenas uma tentativa desajeitada de chamar a atenção deles, ou apenas os gostos peculiares do garoto aflorando na adolescência? No fim das contas, não importava; era tudo o que havia sobrado. Suas roupas de treino permaneciam dobradas, quase todas estampadas com o logotipo oficial da família Natsuki — aquela letra "N" estilizada com um anel em volta, desenhada com tanto orgulho pelo próprio filho e adotada oficialmente por todos durante um jantar descontraído. Havia sido uma cena tão fofa, tão cheia de vida.
+
+Agora, porém, essas mesmas lembranças serviam apenas para lembrá-los de que o calor do seu garoto não estava mais ali. As desculpas esfarrapadas que ele inventava para não ir à escola, os passos pesados pelo corredor, a voz dele ecoando pela casa... nada mais restava. Ele simplesmente sumira deste mundo, sem deixar o menor vestígio.
