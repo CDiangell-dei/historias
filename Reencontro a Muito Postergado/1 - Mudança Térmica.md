@@ -150,7 +150,7 @@ Um suspiro escapou de seus lábios. A confiança vacilou por um instante.
 
 — Mas como a Betty vai fazer isso? De acordo com o Subaru, ele pode ter vindo de um mundo separado por dimensões. Se os mundos não estiverem apenas muito distantes, isso pode ser mais complicado do que eu imaginava, eu suponho.
 
-Perdida em pensamentos, ela buscou uma solução, até que uma ideia complexa surgiu. Uma combinação de três feitiços: primeiro, a localização por linhagem para encontrar os pais de Subaru. Segundo, sua própria magia de Travessia de Portas, para conectar a porta mais próxima deles a uma na mansão. E terceiro, **«Al Shamac»**, para encurtar a distância entre os mundos, reduzindo o gasto de mana da Travessia, embora o próprio **«Al Shamac»** consumisse uma quantidade colossal de energia.
+Perdida em pensamentos, ela buscou uma solução, até que uma ideia complexa surgiu. Uma combinação de três feitiços: primeiro, a localização por linhagem para encontrar os pais de Subaru através do sangue. Segundo, a sua magia de fenda espacial — aquela ruptura no tecido da realidade capaz de transportar corpos e matérias diretamente de um ponto a outro sem depender de barreiras ou portas físicas, perfeitamente eficaz contra alvos que não oferecessem qualquer resistência mágica. E terceiro, o **«Al Shamac»**, para rasgar e encurtar a distância abissal entre as dimensões, reduzindo o custo de sustentar essa ponte cósmica, embora o próprio feitiço exigisse uma quantidade colossal de energia.
 
 *‘Eu provavelmente vou apagar por um bom tempo se usar tudo isso... e a concentração necessária será imensa’*, ponderou ela. *‘Será que a garota meio-elfa ajudaria a Betty? Pergunta boba. É claro que ela ajudaria, é pelo cavaleiro dela. A quantidade de mana que ela possui é imensa. Com a ajuda dela, tenho certeza que vai dar certo, eu suponho.’*
 
@@ -202,7 +202,7 @@ No fim do segundo mês, foram para uma clareira longe da mansão. Ambas assumira
 
 > *血捜 (Kessou): 血 (Sangue) + 捜 (Busca / Procura / Investigação).*
 
-Era uma magia que combinava o portal de travessia, o **«Al Shamac»** e a localização por sangue. Uma fusão de três feitiços poderosos. Com a adição do **«Al Shamac»**, ela seria capaz de perscrutar as rachaduras da realidade. De acordo com as explicações de Subaru, a dimensão da biblioteca era provavelmente um plano separado, um espaço "entre" as dimensões que, teoricamente, poderia ligar-se a outros mundos. Se havia uma chance, era esta. Beatrice concentrou-se, mantendo o **«Al Shamac»** ativo enquanto buscava um sinal dentro do vácuo.
+Era uma magia que combinava o rasgo espacial de teletransporte direto, o **«Al Shamac»** e a localização por sangue. Uma fusão de três feitiços formidáveis. Com o poder do **«Al Shamac»**, ela seria capaz de forçar uma abertura nas rachaduras da realidade, enquanto a ruptura espacial puxaria diretamente os alvos através da dobra dimensional. De acordo com as explicações de Subaru, o espaço além das fronteiras do mundo era uma vastidão separada, mas se havia uma chance de cruzá-la, era através dessa brecha. Beatrice concentrou-se, mantendo o feitiço ativo enquanto perscrutava a escuridão no vácuo.
 
 Emilia estava surpreendentemente bem. Mesmo com a magia sugando sua mana em quantidades avassaladoras, ela não sentia esgotamento. Com a ajuda dos espíritos menores que a rodeavam, garantiu um fluxo constante e estável de poder para Beatrice, sabendo que a busca seria longa.
 
@@ -210,7 +210,7 @@ Minutos se passaram, que mais pareceram horas. Provavelmente meia hora de busca 
 
 Num canto escuro da clareira, um pequeno tentáculo de sombras estendia-se por baixo da terra, chegando até Beatrice sem ser notado. Focada no feitiço, ela não percebeu a mana extra que a infundia. Era Satella fazendo o seu movimento. Com seu controle absoluto, ela manipulava o feitiço melhor do que a própria Beatrice, guiando a busca através do vazio até que, finalmente, alcançaram o seu objetivo.
 
-De repente, Beatrice viu. Pontos de luz. Dois pontos de luz clara brilhando na escuridão, as assinaturas genéticas que correspondiam perfeitamente ao DNA do seu contratante. Eram eles. Finalmente! Usando o componente de teleporte do feitiço, ela concentrou-se, infundindo mais mana para obter uma visão mais clara de onde eles estavam, da forma do cômodo em que se encontravam. Com a imagem mental fixa, ela conseguiu determinar a posição deles. Com um último esforço, ativou o transporte.
+De repente, Beatrice viu. Pontos de luz. Dois pontos de luz clara brilhando na escuridão, as assinaturas genéticas que correspondiam perfeitamente ao DNA do seu contratante. Eram eles. Finalmente! Fixando a mira mágica, ela concentrou-se, infundindo mais mana para abrir e estabilizar a fenda espacial exatamente sobre o cômodo onde eles repousavam. Sabendo que eram almas humanas comuns, incapazes de resistir ao influxo gravitacional do teleporte, Beatrice consolidou a atração. Com a imagem mental fixa e um último esforço conjunto, ativou o transporte.
 
 ---
 
