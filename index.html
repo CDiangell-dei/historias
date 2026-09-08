@@ -14,8 +14,8 @@
   <!-- Favicon: Pleiades Star in SVG -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f59e0b'><path d='M12 2l2.4 6.9 7.1.3-5.5 4.5 1.9 7.1-5.9-4.1-5.9 4.1 1.9-7.1-5.5-4.5 7.1-.3z'/></svg>" />
 
-  <!-- App Stylesheet -->
-  <link rel="stylesheet" href="recursos/app.css" />
+  <!-- App Stylesheet with cache-buster -->
+  <link rel="stylesheet" href="recursos/app.css?v=2.1" />
 </head>
 <body class="theme-night font-md">
   <div class="stars-bg"></div>
@@ -24,28 +24,29 @@
   <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
   <div class="app-container">
-    <!-- Topbar Navigation -->
+    <!-- Topbar Navigation (Grid Layout: Never overlaps!) -->
     <header class="topbar">
-      <!-- 1. Botão do Menu à Esquerda (Sempre visível no mobile) -->
-      <button class="btn-icon sidebar-toggle" id="sidebarToggle" title="Abrir menu de histórias e capítulos">
-        <span class="hamburger-icon">☰</span>
-        <span class="sidebar-toggle-label">Menu</span>
-      </button>
+      <!-- Left: Menu Trigger (Mobile only) -->
+      <div class="topbar-left">
+        <button class="topbar-btn sidebar-toggle" id="sidebarToggle" aria-label="Menu de Capítulos">
+          <span>☰</span>
+        </button>
+      </div>
 
-      <!-- 2. Logo Centralizado -->
-      <div class="brand-section" id="btnBrandHome" title="Voltar ao início">
-        <div class="brand-crest">✦</div>
-        <div class="brand-info">
+      <!-- Center: Brand Emblem & Title -->
+      <div class="brand-center" id="btnBrandHome" title="Voltar ao início">
+        <span class="brand-crest">✦</span>
+        <div class="brand-text">
           <span class="brand-name">CDIANGELL</span>
-          <span class="brand-subtitle">Crônicas de Re:Zero</span>
+          <span class="brand-subtitle desktop-only">Crônicas de Re:Zero</span>
         </div>
       </div>
 
-      <!-- 3. Controles à Direita -->
-      <div class="topbar-controls">
-        <button class="btn-icon desktop-only" id="fontDecBtn" title="Diminuir fonte">A-</button>
-        <button class="btn-icon desktop-only" id="fontIncBtn" title="Aumentar fonte">A+</button>
-        <button class="btn-icon" id="themeToggleBtn" title="Alternar tema visual">🌓</button>
+      <!-- Right: Controls -->
+      <div class="topbar-right">
+        <button class="topbar-btn desktop-only" id="fontDecBtn" title="Diminuir fonte">A-</button>
+        <button class="topbar-btn desktop-only" id="fontIncBtn" title="Aumentar fonte">A+</button>
+        <button class="topbar-btn" id="themeToggleBtn" title="Alternar tema visual">🌓</button>
         <a href="https://archiveofourown.org/users/CDiangell" target="_blank" rel="noopener noreferrer" class="ao3-badge-btn desktop-only" title="Ver perfil no AO3">
           <span>AO3</span>
         </a>
@@ -56,22 +57,22 @@
     <div class="main-wrapper">
       <!-- Sidebar / Drawer -->
       <aside class="sidebar" id="sidebar">
-        <!-- Topo da gaveta mobile com botão fechar -->
+        <!-- Topo da gaveta mobile -->
         <div class="sidebar-close-row">
           <span>✦ MENU DO ARQUIVO</span>
           <button class="sidebar-close-btn" id="sidebarCloseBtn" title="Fechar menu">✕</button>
         </div>
 
-        <!-- Atalhos rápidos dentro da gaveta mobile -->
-        <div class="sidebar-mobile-quick-actions">
-          <a href="https://archiveofourown.org/users/CDiangell" target="_blank" rel="noopener noreferrer" class="sidebar-ao3-link">
+        <!-- Painel de ações rápidas dentro da gaveta -->
+        <div class="drawer-quick-panel">
+          <a href="https://archiveofourown.org/users/CDiangell" target="_blank" rel="noopener noreferrer" class="drawer-ao3-btn">
             <span>🌐</span> Perfil no AO3 (CDiangell)
           </a>
-          <div class="sidebar-font-row">
-            <span style="font-size:0.8rem;color:var(--text-muted);">Tamanho da Letra:</span>
-            <div style="display:flex;gap:0.4rem;">
-              <button class="btn-icon" id="fontDecBtnMobile" style="height:32px;min-width:32px;">A-</button>
-              <button class="btn-icon" id="fontIncBtnMobile" style="height:32px;min-width:32px;">A+</button>
+          <div class="drawer-font-row">
+            <span class="font-label">Tamanho da Letra:</span>
+            <div class="font-btn-group">
+              <button class="font-btn" id="fontDecBtnMobile">A-</button>
+              <button class="font-btn" id="fontIncBtnMobile">A+</button>
             </div>
           </div>
         </div>
@@ -99,8 +100,8 @@
     <span>📋</span> Copiado para a área de transferência!
   </div>
 
-  <!-- Scripts -->
-  <script src="recursos/stories_data.js"></script>
-  <script src="recursos/app.js"></script>
+  <!-- Scripts with cache-busters -->
+  <script src="recursos/stories_data.js?v=2.1"></script>
+  <script src="recursos/app.js?v=2.1"></script>
 </body>
 </html>
