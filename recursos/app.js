@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggleBtn = document.getElementById('themeToggleBtn');
   const fontDecBtn = document.getElementById('fontDecBtn');
   const fontIncBtn = document.getElementById('fontIncBtn');
+  const fontDecBtnMobile = document.getElementById('fontDecBtnMobile');
+  const fontIncBtnMobile = document.getElementById('fontIncBtnMobile');
   const sidebarToggle = document.getElementById('sidebarToggle');
   const sidebar = document.getElementById('sidebar');
   const sidebarOverlay = document.getElementById('sidebarOverlay');
@@ -45,6 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sidebar) sidebar.classList.add('open');
     if (sidebarOverlay) sidebarOverlay.classList.add('active');
     document.body.style.overflow = 'hidden'; // Prevent background scrolling on mobile
+  }
+
+    const floatingMenuBtn = document.getElementById('floatingMenuBtn');
+  if (floatingMenuBtn) {
+    floatingMenuBtn.addEventListener('click', openMobileSidebar);
   }
 
   if (sidebarToggle) {
@@ -98,6 +105,25 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+  if (fontDecBtnMobile) {
+    fontDecBtnMobile.addEventListener('click', () => {
+      let idx = fontSizes.indexOf(currentFontSize);
+      if (idx > 0) {
+        currentFontSize = fontSizes[idx - 1];
+        applyFontSize(currentFontSize);
+      }
+    });
+  }
+  if (fontIncBtnMobile) {
+    fontIncBtnMobile.addEventListener('click', () => {
+      let idx = fontSizes.indexOf(currentFontSize);
+      if (idx < fontSizes.length - 1) {
+        currentFontSize = fontSizes[idx + 1];
+        applyFontSize(currentFontSize);
+      }
+    });
+  }
+
   if (fontIncBtn) {
     fontIncBtn.addEventListener('click', () => {
       let idx = fontSizes.indexOf(currentFontSize);

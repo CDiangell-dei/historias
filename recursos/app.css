@@ -979,3 +979,107 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+/* Floating Mobile Menu Button */
+.floating-mobile-menu {
+  display: none;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background: linear-gradient(135deg, #f59e0b, #9333ea);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  padding: 0.75rem 1.25rem;
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 6px 22px rgba(245, 158, 11, 0.45);
+  z-index: 70;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.45rem;
+  transition: all 0.2s ease;
+}
+
+.floating-mobile-menu:active {
+  transform: scale(0.95);
+}
+
+.sidebar-toggle-label {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive updates for floating menu and sidebar toggle */
+@media (max-width: 900px) {
+  .sidebar-toggle {
+    display: flex !important;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0 0.75rem;
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(168, 85, 247, 0.15));
+    border-color: rgba(245, 158, 11, 0.4);
+    color: var(--accent-gold-light);
+  }
+
+  .floating-mobile-menu {
+    display: flex;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar-toggle-label {
+    display: none; /* Em telas minúsculas mantém só o ícone ☰ */
+  }
+
+  .font-ctrl-btn {
+    display: none; /* No topo de telas muito pequenas, prioriza espaço; fonte ajustável via menu ou toque */
+  }
+}
+.sidebar-mobile-quick-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.sidebar-ao3-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.85rem;
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(244, 63, 94, 0.2));
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  border-radius: 8px;
+  color: #fca5a5;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.sidebar-ao3-link:hover {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.35), rgba(244, 63, 94, 0.35));
+  color: #fff;
+}
+
+.sidebar-font-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.35rem 0.5rem;
+  background: var(--bg-surface-elevated);
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+}

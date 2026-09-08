@@ -26,6 +26,13 @@
   <div class="app-container">
     <!-- Topbar Navigation -->
     <header class="topbar">
+      <!-- 1. Botão do Menu à Esquerda (Sempre visível no mobile) -->
+      <button class="btn-icon sidebar-toggle" id="sidebarToggle" title="Abrir menu de histórias e capítulos">
+        <span class="hamburger-icon">☰</span>
+        <span class="sidebar-toggle-label">Menu</span>
+      </button>
+
+      <!-- 2. Logo Centralizado -->
       <div class="brand-section" id="btnBrandHome" title="Voltar ao início">
         <div class="brand-crest">✦</div>
         <div class="brand-info">
@@ -34,31 +41,39 @@
         </div>
       </div>
 
+      <!-- 3. Controles à Direita -->
       <div class="topbar-controls">
-        <a href="https://archiveofourown.org/users/CDiangell" target="_blank" rel="noopener noreferrer" class="ao3-badge-btn" title="Ver perfil oficial no Archive of Our Own">
+        <button class="btn-icon desktop-only" id="fontDecBtn" title="Diminuir fonte">A-</button>
+        <button class="btn-icon desktop-only" id="fontIncBtn" title="Aumentar fonte">A+</button>
+        <button class="btn-icon" id="themeToggleBtn" title="Alternar tema visual">🌓</button>
+        <a href="https://archiveofourown.org/users/CDiangell" target="_blank" rel="noopener noreferrer" class="ao3-badge-btn desktop-only" title="Ver perfil no AO3">
           <span>AO3</span>
         </a>
-
-        <!-- Font Size Controls -->
-        <button class="btn-icon" id="fontDecBtn" title="Diminuir tamanho da letra">A-</button>
-        <button class="btn-icon" id="fontIncBtn" title="Aumentar tamanho da letra">A+</button>
-
-        <!-- Theme Toggle -->
-        <button class="btn-icon" id="themeToggleBtn" title="Alternar tema visual">🌓</button>
-
-        <!-- Mobile Drawer Toggle -->
-        <button class="btn-icon sidebar-toggle" id="sidebarToggle" title="Abrir menu de capítulos">☰</button>
       </div>
     </header>
 
     <!-- Main Content Layout -->
     <div class="main-wrapper">
-      <!-- Sidebar -->
+      <!-- Sidebar / Drawer -->
       <aside class="sidebar" id="sidebar">
-        <!-- Close button for mobile screens -->
+        <!-- Topo da gaveta mobile com botão fechar -->
         <div class="sidebar-close-row">
           <span>✦ MENU DO ARQUIVO</span>
           <button class="sidebar-close-btn" id="sidebarCloseBtn" title="Fechar menu">✕</button>
+        </div>
+
+        <!-- Atalhos rápidos dentro da gaveta mobile -->
+        <div class="sidebar-mobile-quick-actions">
+          <a href="https://archiveofourown.org/users/CDiangell" target="_blank" rel="noopener noreferrer" class="sidebar-ao3-link">
+            <span>🌐</span> Perfil no AO3 (CDiangell)
+          </a>
+          <div class="sidebar-font-row">
+            <span style="font-size:0.8rem;color:var(--text-muted);">Tamanho da Letra:</span>
+            <div style="display:flex;gap:0.4rem;">
+              <button class="btn-icon" id="fontDecBtnMobile" style="height:32px;min-width:32px;">A-</button>
+              <button class="btn-icon" id="fontIncBtnMobile" style="height:32px;min-width:32px;">A+</button>
+            </div>
+          </div>
         </div>
 
         <div id="chapterNavContainer">
@@ -72,6 +87,12 @@
       </main>
     </div>
   </div>
+
+  <!-- Botão Flutuante de Capítulos para Celular (Polegar) -->
+  <button class="floating-mobile-menu" id="floatingMenuBtn" title="Abrir menu de capítulos">
+    <span>📚</span>
+    <span>Capítulos</span>
+  </button>
 
   <!-- Toast Notification Feedback -->
   <div class="toast-msg" id="toastMsg">
