@@ -2,7 +2,7 @@
 
 **Autor:** CDiangell  
 **Universo:** Re:Zero Starting Life in Another World  
-**Personagens:** Natsuki Subaru, Kenichi Natsuki, Naoko Natsuki, Beatrice, Emilia, Satella  
+**Personagens:** Natsuki Subaru, Kenichi Natsuki, Naoko Natsuki, Beatrice, Emilia, Satella e Inveja
 
 ---
 
