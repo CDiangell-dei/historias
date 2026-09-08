@@ -1,4 +1,4 @@
-// CDiangell - Web Application Logic
+// CDiangell - Web Application Logic (Mobile & Desktop)
 document.addEventListener('DOMContentLoaded', () => {
   const data = window.STORIES_DATA;
   if (!data) return;
@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const fontIncBtn = document.getElementById('fontIncBtn');
   const sidebarToggle = document.getElementById('sidebarToggle');
   const sidebar = document.getElementById('sidebar');
+  const sidebarOverlay = document.getElementById('sidebarOverlay');
+  const sidebarCloseBtn = document.getElementById('sidebarCloseBtn');
+  const btnBrandHome = document.getElementById('btnBrandHome');
 
   // State
   let currentStoryId = 'reencontro';
@@ -30,6 +33,49 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load Initial Chapter
   renderView();
+
+  // Mobile Drawer Events
+  function closeMobileSidebar() {
+    if (sidebar) sidebar.classList.remove('open');
+    if (sidebarOverlay) sidebarOverlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function openMobileSidebar() {
+    if (sidebar) sidebar.classList.add('open');
+    if (sidebarOverlay) sidebarOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling on mobile
+  }
+
+  if (sidebarToggle) {
+    sidebarToggle.addEventListener('click', () => {
+      if (sidebar && sidebar.classList.contains('open')) {
+        closeMobileSidebar();
+      } else {
+        openMobileSidebar();
+      }
+    });
+  }
+
+  if (sidebarOverlay) {
+    sidebarOverlay.addEventListener('click', closeMobileSidebar);
+  }
+
+  if (sidebarCloseBtn) {
+    sidebarCloseBtn.addEventListener('click', closeMobileSidebar);
+  }
+
+  if (btnBrandHome) {
+    btnBrandHome.addEventListener('click', () => {
+      currentMainView = 'story';
+      currentStoryId = 'reencontro';
+      currentChapterId = 'reencontro-cap1';
+      updateSidebarActive();
+      renderView();
+      closeMobileSidebar();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   // Theme Toggle
   if (themeToggleBtn) {
@@ -62,25 +108,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Mobile sidebar toggle
-  if (sidebarToggle && sidebar) {
-    sidebarToggle.addEventListener('click', () => {
-      sidebar.classList.toggle('open');
-    });
-  }
-
   function applyTheme(theme) {
     document.body.className = document.body.className.replace(/theme-[a-z]+/g, '').trim();
     document.body.classList.add(theme);
     localStorage.setItem('cdiangell_theme', theme);
-    if (themeToggleBtn) {
-      const labels = {
-        'theme-night': '🌌 Noite Estrelada',
-        'theme-void': '🌑 Selo das Sombras',
-        'theme-grimoire': '📜 Grimório Real'
-      };
-      themeToggleBtn.title = `Tema atual: ${labels[theme]} (clique para alternar)`;
-    }
   }
 
   function applyFontSize(fSize) {
@@ -137,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
           currentChapterId = ch.id;
           updateSidebarActive();
           renderView();
-          if (window.innerWidth <= 900 && sidebar) sidebar.classList.remove('open');
+          closeMobileSidebar();
           window.scrollTo({ top: 0, behavior: 'smooth' });
         });
         chList.appendChild(chBtn);
@@ -177,19 +208,22 @@ document.addEventListener('DOMContentLoaded', () => {
         currentMainView = 'map';
         updateSidebarActive();
         renderView();
-        if (window.innerWidth <= 900 && sidebar) sidebar.classList.remove('open');
+        closeMobileSidebar();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
       if (bGlo) bGlo.addEventListener('click', () => {
         currentMainView = 'glossary';
         updateSidebarActive();
         renderView();
-        if (window.innerWidth <= 900 && sidebar) sidebar.classList.remove('open');
+        closeMobileSidebar();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
       if (bRpg) bRpg.addEventListener('click', () => {
         currentMainView = 'rpg';
         updateSidebarActive();
         renderView();
-        if (window.innerWidth <= 900 && sidebar) sidebar.classList.remove('open');
+        closeMobileSidebar();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     }, 50);
   }
@@ -325,15 +359,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <div class="map-view-container">
         <div class="map-card">
-          <div class="map-image-wrapper" id="mapWrapper">
+          <div class="map-image-wrapper" id="mapWrapper" title="Toque para abrir a imagem completa">
             <img src="recursos/mapa_rezero.jpg" alt="Mapa Oficial dos Quatro Reinos de Re:Zero" />
           </div>
+          <p style="font-size:0.8rem;color:var(--text-muted);margin-top:0.75rem;text-align:center;">
+            🔍 Dica: em celulares, use o gesto de pinça na imagem ou abra em nova guia para ler os nomes das províncias em alta resolução.
+          </p>
         </div>
 
         <div class="map-legend-grid">
           <div class="legend-box">
             <h4>🏰 Reino de Lugunica</h4>
-            <p>O Reino do Dragão a Leste. Inclui a Capital Real, a Planície de Lifaus (Árvore de Flugel), e os <strong>Campos Costuul (Mansão Miload)</strong>.</p>
+            <p>O Reino do Dragão a Leste. Inclui a Capital Real, a Planície de Lifaus e os <strong>Campos Costuul (Mansão Miload)</strong>.</p>
           </div>
           <div class="legend-box">
             <h4>❄️ Reino Sagrado de Gusteko</h4>
@@ -350,6 +387,13 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
     `;
+
+    const mapWrapper = document.getElementById('mapWrapper');
+    if (mapWrapper) {
+      mapWrapper.addEventListener('click', () => {
+        window.open('recursos/mapa_rezero.jpg', '_blank');
+      });
+    }
   }
 
   function renderGlossaryView() {
@@ -358,24 +402,16 @@ document.addEventListener('DOMContentLoaded', () => {
     mainContent.innerHTML = `
       <div class="reader-header">
         <div class="reader-title-area">
-          <h1>Glossário de Alimentos & Termos</h1>
+          <h1>Glossário Alimentar & Termos</h1>
           <h2>Equivalência Oficial: Mundo de Re:Zero vs. Terra</h2>
         </div>
       </div>
 
       <input type="text" id="glossarySearch" class="glossary-search-bar" placeholder="🔍 Pesquisar por termo em Re:Zero ou tradução na Terra (ex: solte, maçã, bokko)..." />
 
-      <table class="glossary-table">
-        <thead>
-          <tr>
-            <th>Termo em Re:Zero (Japonês / Transliteração)</th>
-            <th>Equivalente na Terra / Português</th>
-          </tr>
-        </thead>
-        <tbody id="glossaryTableBody">
-          ${renderGlossaryRows(items)}
-        </tbody>
-      </table>
+      <div class="glossary-grid" id="glossaryGrid">
+        ${renderGlossaryCards(items)}
+      </div>
     `;
 
     const searchInput = document.getElementById('glossarySearch');
@@ -386,21 +422,21 @@ document.addEventListener('DOMContentLoaded', () => {
           it.rezero.toLowerCase().includes(query) || 
           it.terra.toLowerCase().includes(query)
         );
-        const tbody = document.getElementById('glossaryTableBody');
-        if (tbody) tbody.innerHTML = renderGlossaryRows(filtered);
+        const grid = document.getElementById('glossaryGrid');
+        if (grid) grid.innerHTML = renderGlossaryCards(filtered);
       });
     }
   }
 
-  function renderGlossaryRows(items) {
+  function renderGlossaryCards(items) {
     if (!items.length) {
-      return `<tr><td colspan="2" style="text-align:center;color:var(--text-muted);padding:2rem;">Nenhum termo encontrado.</td></tr>`;
+      return `<div style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:2rem;">Nenhum ingrediente ou termo encontrado.</div>`;
     }
     return items.map(it => `
-      <tr>
-        <td class="rezero-term">${it.rezero}</td>
-        <td class="terra-term">${it.terra}</td>
-      </tr>
+      <div class="glossary-card">
+        <div class="rezero-term">${it.rezero}</div>
+        <div class="terra-term">${it.terra}</div>
+      </div>
     `).join('');
   }
 
@@ -417,7 +453,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <p><strong>Bellum Egrégora: O Flagelo de Metus</strong> é uma adaptação de RPG medieval dark desenvolvida por <strong>CDiangell</strong> sobre a base mecânica de <em>Ordem Paranormal RPG</em> com elementos enriquecidos de <em>Tormenta20</em> e <em>Sobrevivendo ao Horror</em>.</p>
 
         <div class="scene-tag"><span class="scene-badge">DESTAQUES MECÂNICOS</span> Inovações do Sistema</div>
-        <ul style="list-style:disc;margin-left:2rem;margin-bottom:1.5rem;color:var(--text-book);line-height:1.9;">
+        <ul style="list-style:disc;margin-left:1.75rem;margin-bottom:1.5rem;color:var(--text-book);line-height:1.9;">
           <li><strong>23 Origens Medievais:</strong> De Herdeiros Decadentes a Flagelados, Mercenários de Fronteira e Escribas Reclusos.</li>
           <li><strong>Defesa Ativa:</strong> O defensor rola dados para aparar, bloquear com escudo ou esquivar, tornando o combate visceral.</li>
           <li><strong>Magia Canalizada por Sanidade:</strong> Não há pontos de mana triviais; dobrar as leis do mundo consome a sanidade e a alma do conjurador.</li>
@@ -429,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="action-toolbar" style="margin-top:2rem;">
           <div>
             <h4 style="font-family:var(--font-display);color:var(--accent-gold);margin-bottom:0.2rem;">Complemento Oficial de Regras</h4>
-            <p style="font-size:0.85rem;color:var(--text-muted);">PDF oficial diagramado com todas as tabelas e regras da Mesa Diangell.</p>
+            <p style="font-size:0.82rem;color:var(--text-muted);">PDF oficial diagramado com todas as tabelas e regras da Mesa Diangell.</p>
           </div>
           <a href="RPG/Complemento de Regras - Mesa Diangell.pdf" target="_blank" class="ao3-copy-button" style="text-decoration:none;">
             <span>📥</span> Baixar Livro de Regras (PDF)
