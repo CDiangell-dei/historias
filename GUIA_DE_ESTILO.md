@@ -73,3 +73,17 @@ Para cartas, pergaminhos de pacto, livros sagrados ou reflexões metafísicas pr
 
 ---
 ```
+---
+
+## 6. 🌐 Exportação Automática para AO3 (Archive of Our Own)
+
+Para postar capítulos no AO3 com formatação perfeita e sem erros de espaçamento:
+* O script [`recursos/export_ao3.py`](recursos/export_ao3.py) converte o capítulo `.md` diretamente para um arquivo `.html` limpo.
+* **Transformações aplicadas:**
+  * Remove o cabeçalho inicial de rascunho (pois o AO3 já possui campos dedicados de título, autor e fandom).
+  * `---` vira `<hr />`.
+  * `**[...]**` vira `<h4>[...]</h4>` (título de cena oficial do AO3).
+  * `>` vira `<blockquote><p>...</p></blockquote>`.
+  * Negritos e itálicos viram `<strong>` e `<em>`.
+  * Parágrafos são envolvidos em `<p>...</p>`.
+* **Como usar:** Basta copiar todo o conteúdo do arquivo `(AO3).html` gerado e colar diretamente na aba **HTML** do editor do AO3.
