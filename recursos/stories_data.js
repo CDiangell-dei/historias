@@ -27,7 +27,7 @@ window.STORIES_DATA = {
     },
     {
       "id": "tfs-wtbo",
-      "title": "Two Forgotten Stars - Where The Brightest Shines",
+      "title": "Two Forgotten Stars - When Two Become One",
       "fandom": "Re:Zero Starting Life in Another World",
       "category": "rezero",
       "summary": "Uma narrativa aprofundada explorando o encontro e o romance estelar entre Subaru Natsuki e Anastasia Hoshin, acompanhados por Beatrice, Tia, Eridna e Halibel.",
