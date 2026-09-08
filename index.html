@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDiangell • Crônicas de Re:Zero & Arquivo de Histórias</title>
+  
+  <meta name="description" content="Arquivo de histórias, fanfictions de Re:Zero (Reencontro, TFS-WTBO, Um Acordo Mútuo) e RPG por CDiangell. Com leitor de capítulos e exportador para AO3." />
+  <meta property="og:title" content="CDiangell • Crônicas de Re:Zero & Histórias" />
+  <meta property="og:description" content="Leia as fanfictions de Re:Zero e sistemas de RPG de CDiangell com leitor temático e cópia instantânea para AO3." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon: Pleiades Star in SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f59e0b'><path d='M12 2l2.4 6.9 7.1.3-5.5 4.5 1.9 7.1-5.9-4.1-5.9 4.1 1.9-7.1-5.5-4.5 7.1-.3z'/></svg>" />
+
+  <!-- App Stylesheet -->
+  <link rel="stylesheet" href="recursos/app.css" />
+</head>
+<body class="theme-night font-md">
+  <div class="stars-bg"></div>
+
+  <div class="app-container">
+    <!-- Topbar Navigation -->
+    <header class="topbar">
+      <div class="brand-section" id="btnBrandHome" title="Voltar ao início">
+        <div class="brand-crest">✦</div>
+        <div class="brand-info">
+          <span class="brand-name">CDIANGELL</span>
+          <span class="brand-subtitle">Crônicas de Re:Zero • Arquivo</span>
+        </div>
+      </div>
+
+      <div class="topbar-controls">
+        <a href="https://archiveofourown.org/users/CDiangell" target="_blank" rel="noopener noreferrer" class="ao3-badge-btn" title="Ver perfil oficial no Archive of Our Own">
+          <span>AO3</span> Perfil
+        </a>
+
+        <!-- Font Size Controls -->
+        <button class="btn-icon" id="fontDecBtn" title="Diminuir fonte">A-</button>
+        <button class="btn-icon" id="fontIncBtn" title="Aumentar fonte">A+</button>
+
+        <!-- Theme Toggle -->
+        <button class="btn-icon" id="themeToggleBtn" title="Alternar tema visual">🌓</button>
+
+        <!-- Mobile Drawer Toggle -->
+        <button class="btn-icon sidebar-toggle" id="sidebarToggle" title="Menu de Histórias">☰</button>
+      </div>
+    </header>
+
+    <!-- Main Content Layout -->
+    <div class="main-wrapper">
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <div id="chapterNavContainer">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </aside>
+
+      <!-- Central Content View -->
+      <main class="content-area" id="mainContent">
+        <!-- Rendered dynamically by app.js -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Toast Notification Feedback -->
+  <div class="toast-msg" id="toastMsg">
+    <span>📋</span> Copiado para a área de transferência!
+  </div>
+
+  <!-- Scripts -->
+  <script src="recursos/stories_data.js"></script>
+  <script src="recursos/app.js"></script>
+</body>
+</html>
